@@ -557,6 +557,7 @@ a {
 }
 @media (max-width: 768px) {
   .nav__link {
+    padding-left: 16px;
     background: url(../img/header/ico.svg) left center no-repeat;
     font-size: 18px;
     font-weight: 400;
