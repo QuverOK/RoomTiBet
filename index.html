@@ -52,28 +52,30 @@
     <h2 class="find__title">Насладись прогулкой в горах
       с командой единомышленников</h2>
     <form action="#" class="form find__form flex">
-      <label class="form__label flex">
-        <select name="Локация для тура" class="form__select" id="selectLocation">
-          <option value="Локация" selected disabled>Локация для тура</option>
-          <option value="Турция">Турция</option>
-          <option value="Бали">Бали</option>
-          <option value="Египет">Египет</option>
-        </select>
-        <span>выберите из списка</span>
-      </label>
-      <label class="form__label form__label--input flex">
-        <input type="date" name="Имя" class="input-reset form__input" placeholder="Имя">
-        <span>укажите диапазон</span>
-      </label>
-      <label class="form__label flex">
-        <select name="Локация для тура" class="form__select" id="selectMembers">
-          <option value="Участники" selected disabled>Участники</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-        </select>
-        <span>минимум 4 человека</span>
-      </label>
+      <div class="form__wrapper flex">
+        <label class="form__label flex">
+          <select name="Локация для тура" class="form__select" id="selectLocation">
+            <option value="Локация" selected disabled>Локация для тура</option>
+            <option value="Турция">Турция</option>
+            <option value="Бали">Бали</option>
+            <option value="Египет">Египет</option>
+          </select>
+          <span>выберите из списка</span>
+        </label>
+        <label class="form__label form__label--input flex">
+          <input type="date" name="Имя" class="input-reset form__input" placeholder="Имя">
+          <span>укажите диапазон</span>
+        </label>
+        <label class="form__label flex">
+          <select name="Локация для тура" class="form__select" id="selectMembers">
+            <option value="Участники" selected disabled>Участники</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+          <span>минимум 4 человека</span>
+        </label>
+      </div>
       <button class="btn-reset form__btn btn btn--big">Найти программу</button>
     </form>
   </div>
