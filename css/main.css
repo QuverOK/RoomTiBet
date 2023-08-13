@@ -557,7 +557,6 @@ a {
 }
 @media (max-width: 768px) {
   .nav__link {
-    padding-left: 16px;
     background: url(../img/header/ico.svg) left center no-repeat;
     font-size: 18px;
     font-weight: 400;
@@ -1459,6 +1458,10 @@ input[type=date]::-webkit-calendar-picker-indicator:active {
   display: flex;
   -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
+}
+.blog__label--title {
+  margin: 0;
+  margin-bottom: 8px;
 }
 .blog__label:focus {
   outline: none;
